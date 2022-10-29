@@ -3,7 +3,7 @@ from functools import partial
 
 from pywebio.input import TEXT, input
 from pywebio.output import clear, put_buttons, put_html, put_table, put_text, use_scope
-from pywebio.platform.utils import seo
+from pywebio.platform.page import seo
 
 
 def complete_task(choice: str, task: str, tasks):
